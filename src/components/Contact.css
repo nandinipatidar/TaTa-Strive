@@ -1,0 +1,146 @@
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;color: white;
+  background-color: #00B7F0;
+}
+
+.contact-container {
+    flex: 1;
+    max-width: 500px;
+    height: 450px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgb(33, 125, 211);
+    margin-left: 100px;
+    margin-top: 75px;
+  }
+  
+  .contact-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00B7F0;
+  }
+  
+  .contact-container p {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+  .form-group {
+    margin-bottom: 25px;
+    display: flex;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  input[type="text"],
+  input[type="email"]{
+    margin-left: 43px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    padding: 12px 30px;
+    background-color: #00B7F0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #00B7F0;
+  }
+  
+  /* Error messages */
+  .error-message {
+    color: #d32f2f;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+
+  /* google map */
+  .map {
+    flex: 1;
+    max-width: 500px;
+    margin: 75px;
+    
+  }
+  
+  .map iframe {
+    /* width: 50%;
+    height: 350px; */
+    border: 0;
+    border-radius: 10px;
+   
+  }
+
+  .con-icon{
+    width: 50px;
+    height: auto;
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+  }
+
+  .con-icon:hover {
+    color: #1c64be; 
+    border-radius: 20%; 
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 600px) {
+    .contact-container {
+      padding: 20px;
+    }
+  
+    .contact-container h1 {
+      font-size: 24px;
+    }
+  
+    .contact-container p {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+  
+    label,
+    input[type="text"],
+    input[type="email"],
+    textarea,
+    button {
+      font-size: 14px;
+    }
+
+    .contact {
+      flex-direction: column;
+    }
+  
+    .map,
+    .contact-container {
+      max-width: 100%;
+    }
+  }

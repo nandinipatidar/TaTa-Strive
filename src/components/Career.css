@@ -1,0 +1,75 @@
+/* body{
+   
+    padding: 40px;
+    margin-top: 70px;
+    margin-bottom: 0%;
+} */
+.career{
+    background-color: #00b7f0;
+    color: white;
+}
+#careerhead{
+    color: white;
+    background-color: #00b7f0;
+}
+
+.careercard {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.careercard {
+    margin-left: 5%;
+    width: 70%;
+}
+
+.careercard {
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.careercard h3 {
+    font-size: 30px;
+    margin: 0px;
+}
+
+.byline {
+    color: rgba(32, 33, 36, 0.4);
+    font-weight: 600;
+    line-height: 1.55;
+    font-size: 12px;
+    letter-spacing: 1.3px;
+}
+
+.writerhistory {
+    font-size: 17px;
+}
+
+.careercard img {
+    width: 200px;
+    
+}
+
+.resumewritersection {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 300px;
+    background-color: #eee5dc;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-image: url("https://www.resumewritingservices.org/wp-content/uploads/2020/07/resumewriterspage-scaled.jpg");
+}
+
+.textcenter h1 {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .careercard {
+        flex-direction: column;
+    }
+}
